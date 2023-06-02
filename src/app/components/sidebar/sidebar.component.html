@@ -1,0 +1,8 @@
+<div class="sidebar">
+  <!-- <img src="../../../assets/images/bg-sidebar-desktop.svg" /> -->
+  <div class="p-4">
+    <div *ngFor="let item of steps">
+      <app-step-tag class="m-3" stepNumber="{{ item.stepNumber }}" title="{{ item.title }}"></app-step-tag>
+    </div>
+  </div>
+</div>

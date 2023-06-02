@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.number-tag {
+  height: 2rem;
+  width: 2rem;
+  border: 0.1rem solid white;
+  border-radius: 100% ;
+  color: white;
+}
+.step-N {
+  font-size: 0.6rem;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+.selected{
+  background-color: hsl(206, 94%, 87%);
+}
+
+.step-Title {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.sidebar {
+  background-image: url("./assets/images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height :100vh;
+  width: auto;
+}
+.steps {
+  /* position: absolute; */
+  /* z-index: 2; */
+}

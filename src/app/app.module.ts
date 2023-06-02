@@ -12,7 +12,7 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LandingPageComponent
+    LandingPageComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
